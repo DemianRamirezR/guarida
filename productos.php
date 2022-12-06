@@ -244,25 +244,232 @@
             <div class="swiper-button-prev"></div>
 
         </div>
-
+        
     </section>
-
+    
     <!-- featured section ends -->
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
     <section>
         <h1 class="heading"> <span> Catálogo de Historietas:</span> </h1>
-        <h1 class="heading"> <span style="color: var(--cherry);"> Mangas </span> </h1>
     </section>
-
+    
     <!-- Mangas section starts -->
+    
+    <section class="featured" id="featured">
+        <h1 class="heading"> <span style="color: var(--cherry);"> Mangas </span> </h1>
+        
+            <div class="swiper featured-slider">
+                
+                <div class="swiper-wrapper">
+                    
+                    
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>My home hero: Volumen 1</h3>
+                            <div class="price">$350.65</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="swiper-slide box">
+                        <form action="">
+                            <input type="hidden" name="titulo" id="titulo" value="">
+                            <input type="hidden" name="precio" id="precio" value="">
+                            <input type="hidden" name="cantidad" id="cantidad" value="">
+                            <input type="hidden" name="" id="">
+                            <div class="image">
+                                <img src="image/manga2.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Dr. Stone: Volumen 1</h3>
+                                <div class="price">$455.87</div>
+                                <button class="btn" type="submit" value="Agregar">
+                                    Añadir al carrito
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Las vacaciones de Jesús y Buda</h3>
+                            <div class="price">$310.82</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>One Piece: Volumen 1</h3>
+                            <div class="price">$310.82</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga5.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Saint Seiya: Volumen 1</h3>
+                            <div class="price">$361.24</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga6.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Ranma 1/2: Volumen 1</h3>
+                            <div class="price">$276.16</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga7.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Urusei Yatsura: Volumen 1</h3>
+                            <div class="price">$503.76</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga8.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Uzumaki (3 en 1 Edicion Deluxe)</h3>
+                            <div class="price">$532.81</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga9.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The Boys: Volumen 1</h3>
+                            <div class="price">$591.82</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga10.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Sailor Moon: Volumen 1</h3>
+                            <div class="price">$143.84</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
 
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga11.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Jujutsu Kaisen: Volumen 1</h3>
+                            <div class="price">$165.37</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga12.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Kemono Jihen: Volumen 1</h3>
+                            <div class="price">$353.37</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga13.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Chainsaw Man: Volumen 1</h3>
+                            <div class="price">$413.76</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        
+            </div>
+        
+        </section>
+
+
+
+    <!-- Mangas section ends -->
+
+
+
+
+
+
+
+
+    <!-- DC section starts -->
+        
         <section class="featured" id="featured">
+
+            <h1 class="heading"> <span style="color: var(--cherry);"> DC Comics </span> </h1>
         
             <div class="swiper featured-slider">
         
@@ -271,11 +478,11 @@
         
                     <div class="swiper-slide box">
                         <div class="image">
-                            <img src="image/manga1.jpg" alt="">
+                            <img src="image/Dc1.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h3>My home hero: Volumen 1</h3>
-                            <div class="price">$350.65</div>
+                            <h3>Superman: Crisis en tierras infinitas</h3>
+                            <div class="price">$449.00</div>
                             <button class="btn" type="submit" value="Agregar">
                                 Añadir al carrito
                             </button>
@@ -317,10 +524,10 @@
         
                     <div class="swiper-slide box">
                         <div class="image">
-                            <img src="image/destacado14.jpg" alt="">
+                            <img src="image/manga4.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h3>Doraemon: Volumen 1</h3>
+                            <h3>One Piece: Volumen 1</h3>
                             <div class="price">$310.82</div>
                             <button class="btn" type="submit" value="Agregar">
                                 Añadir al carrito
@@ -330,10 +537,10 @@
         
                     <div class="swiper-slide box">
                         <div class="image">
-                            <img src="image/destacado15.jpg" alt="">
+                            <img src="image/manga5.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h3>KochiKame: Volumen 1</h3>
+                            <h3>Saint Seiya: Volumen 1</h3>
                             <div class="price">$361.24</div>
                             <button class="btn" type="submit" value="Agregar">
                                 Añadir al carrito
@@ -343,10 +550,10 @@
         
                     <div class="swiper-slide box">
                         <div class="image">
-                            <img src="image/destacado16.jpg" alt="">
+                            <img src="image/manga6.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h3>Demon Slayer: Volumen 1</h3>
+                            <h3>Ranma 1/2: Volumen 1</h3>
                             <div class="price">$276.16</div>
                             <button class="btn" type="submit" value="Agregar">
                                 Añadir al carrito
@@ -356,10 +563,10 @@
         
                     <div class="swiper-slide box">
                         <div class="image">
-                            <img src="image/destacado17.jpg" alt="">
+                            <img src="image/manga7.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h3>Crayon Shinchan</h3>
+                            <h3>Urusei Yatsura: Volumen 1</h3>
                             <div class="price">$503.76</div>
                             <button class="btn" type="submit" value="Agregar">
                                 Añadir al carrito
@@ -369,10 +576,62 @@
         
                     <div class="swiper-slide box">
                         <div class="image">
-                            <img src="image/destacado18.jpg" alt="">
+                            <img src="image/manga8.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h3>Tokyo Ghoul: Volumen 1</h3>
+                            <h3>Uzumaki (3 en 1 Edicion Deluxe)</h3>
+                            <div class="price">$532.81</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga9.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The Boys: Volumen 1</h3>
+                            <div class="price">$591.82</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga10.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Sailor Moon: Volumen 1</h3>
+                            <div class="price">$143.84</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga11.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Jujutsu Kaisen: Volumen 1</h3>
+                            <div class="price">$165.37</div>
+                            <button class="btn" type="submit" value="Agregar">
+                                Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/manga12.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Kemono Jihen: Volumen 1</h3>
                             <div class="price">$</div>
                             <button class="btn" type="submit" value="Agregar">
                                 Añadir al carrito
@@ -382,23 +641,10 @@
         
                     <div class="swiper-slide box">
                         <div class="image">
-                            <img src="image/destacado19.jpg" alt="">
+                            <img src="image/manga13.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h3>Bleach: Volumen 1</h3>
-                            <div class="price">$</div>
-                            <button class="btn" type="submit" value="Agregar">
-                                Añadir al carrito
-                            </button>
-                        </div>
-                    </div>
-        
-                    <div class="swiper-slide box">
-                        <div class="image">
-                            <img src="image/destacado20.jpg" alt="">
-                        </div>
-                        <div class="content">
-                            <h3>Gleipnir: Volumen 1</h3>
+                            <h3>Chainsaw Man: Volumen 1</h3>
                             <div class="price">$</div>
                             <button class="btn" type="submit" value="Agregar">
                                 Añadir al carrito
@@ -414,10 +660,13 @@
             </div>
         
         </section>
+        
+        
+        
+    <!-- DC section ends -->
 
 
 
-    <!-- Mangas section ends -->
 
 
 
