@@ -1,0 +1,45 @@
+@import url(style.css);
+
+.banner-prod {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(../image/producto-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerCapa-prod {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.822);
+}
+
+.mangas .mangas-slider .box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: var(--border-hover);
+    margin: 1rem 0;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.mangas .mangas-slider .box:hover {
+    border: .1rem solid var(--dark-color);
+}
+
+.mangas .mangas-slider .box .content h3 {
+    font-size: 2rem;
+    color: var(--cherry);
+}
+
+.mangas .mangas-slider .box .content h3:hover {
+    color: aliceblue;
+    transform: scale(1.1);
+}

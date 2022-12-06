@@ -1,0 +1,132 @@
+@import url("../fonts/Poppins.css");
+@import url("../fonts/Rubik.css");
+
+:root {
+    --cherry: #dd2f6e;
+    --dark-color: #a01e4d;
+    --rosewood: #feebed;
+    --black: #333;
+    --white: #fff;
+    --light-color: #8390a2;
+    --light-white: #c9d3e1;
+    --bg: rgb(36, 36, 36);
+    --border: .1rem solid var(--rosewood);
+    --box-shadow: 0 .5rem 1rem var(--light-color);
+    --border-hover: .1rem solid var(--cherry);
+}
+
+* {
+   font-family: 'Rubik', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   transition: all .2s linear;
+}
+
+*::selection {
+   background-color: var(--rosewood);
+   color: var(--cherry);
+}
+
+*::-webkit-scrollbar {
+   height: .5rem;
+   width: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+   background-color: var(--bg);
+}
+
+html {
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+section {
+   padding: 3rem 2rem;
+}
+
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn {
+   display: inline-block;
+   margin-top: 1rem;
+   padding: 1rem 3rem;
+   cursor: pointer;
+   color: var(--white);
+   font-size: 1.8rem;
+   border-radius: .5rem;
+   text-transform: capitalize;
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover {
+   background-color: var(--dark-color);
+}
+
+.option-btn,
+.delete-btn,
+.white-btn,
+.btn {
+   background-color: var(--cherry);
+}
+
+.form-container {
+   min-height: 100vh;
+   background-color: var(--bg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+}
+
+.form-container form {
+   padding: 2rem;
+   width: 50rem;
+   border-radius: .5rem;
+   box-shadow: var(--box-shadow);
+   border: var(--border);
+   background-color: var(--black);
+   text-align: center;
+}
+
+.form-container form h3 {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+   color: var(--white);
+}
+
+.form-container form .box {
+   width: 100%;
+   border-radius: .5rem;
+   background-color: var(--white);
+   padding: 1.2rem 1.4rem;
+   font-size: 1.8rem;
+   color: var(--cherry);
+   border: var(--border);
+   margin: 1rem 0;
+}
+
+.form-container form p {
+   padding-top: 1.5rem;
+   font-size: 2rem;
+   color: var(--white);
+}
+
+.form-container form p a {
+   color: var(--cherry);
+}
+
+.form-container form p a:hover {
+   text-decoration: underline;
+}
