@@ -2,17 +2,17 @@
 @import url("../fonts/Rubik.css");
 
 :root {
-    --cherry: #dd2f6e;
-    --dark-color: #a01e4d;
-    --rosewood: #feebed;
-    --black: #333;
-    --white: #fff;
-    --light-color: #8390a2;
-    --light-white: #c9d3e1;
-    --bg: rgb(36, 36, 36);
-    --border: .1rem solid var(--rosewood);
-    --box-shadow: 0 .5rem 1rem var(--light-color);
-    --border-hover: .1rem solid var(--cherry);
+   --cherry: #dd2f6e;
+   --dark-color: #a01e4d;
+   --rosewood: #feebed;
+   --black: #333;
+   --white: #fff;
+   --light-color: #8390a2;
+   --light-white: #c9d3e1;
+   --bg: rgb(36, 36, 36);
+   --border: .1rem solid var(--rosewood);
+   --box-shadow: 0 .5rem 1rem var(--light-color);
+   --border-hover: .1rem solid var(--cherry);
 }
 
 * {

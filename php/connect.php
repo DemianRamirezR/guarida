@@ -1,19 +1,12 @@
 <?php
-    //Cadena de conexion obteniendo valores
-    $servidor="mysql:bdname=".BD.";host=".SERVIDOR;
+$servidor = "localhost";
+$usuario = "root";
+$clave = "";
+$db = "guarida";
 
-    try{
+$conn = new mysqli("localhost", "root", "", "guarida");
 
-        $pdo = new PDO( $servidor,USUARIO,PASS,
-            array(PDO::MYSQL_ATTR_INIT_COMMAND=>"SET NAMES utf8")
-            );
-
-        echo "<script> console.log('Se ha conectado al servidor 👌.') </script>";
-
-    }catch (PDOException $e) {
-
-        echo "<script> alert('Error de conexion al servidor 😖.') </script>";
-        
-    }
-
+if ($conn->connect_error) {
+    die("Conexion fallida: " . $conn->$connect_error);
+}
 ?>

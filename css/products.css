@@ -19,27 +19,3 @@
     background: rgba(0, 0, 0, 0.822);
 }
 
-.mangas .mangas-slider .box {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 2rem 1rem;
-    border: var(--border-hover);
-    margin: 1rem 0;
-    justify-content: center;
-    object-fit: cover;
-}
-
-.mangas .mangas-slider .box:hover {
-    border: .1rem solid var(--dark-color);
-}
-
-.mangas .mangas-slider .box .content h3 {
-    font-size: 2rem;
-    color: var(--cherry);
-}
-
-.mangas .mangas-slider .box .content h3:hover {
-    color: aliceblue;
-    transform: scale(1.1);
-}
