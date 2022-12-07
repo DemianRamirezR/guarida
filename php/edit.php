@@ -31,18 +31,20 @@ while ($res = mysqli_fetch_array($result)) {
 
 <head>
 	<title>Editar Cantidad</title>
+	<link rel="stylesheet" href="../css/form-style.css">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+	<div class="form-container">
+		<form method="post" action="edit.php">
+			<h3>Modificando cantidad.</h3>
 
-	<form method="post" action="edit.php">
-		<h3>Modificando cantidad.</h3>
-
-		<input type="number" name="cantidad" value="<?php echo $cantidad; ?>" class="box">
-		<input type="hidden" name="id" value=<?php echo $_GET['id']; ?>>
-		<input type="submit" name="update" value="Actualizar">
-	</form>
-
+			<input type="number" name="cantidad" value="<?php echo $cantidad; ?>" class="box">
+			<input type="hidden" name="id" value=<?php echo $_GET['id']; ?>>
+			<input type="submit" name="update" value="Actualizar" class="btn">
+		</form>
+	</div>
 </body>
 
 </html>

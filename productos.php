@@ -36,8 +36,9 @@ session_start();
             <a href="Index.php" class="logo"> <i class="fas fa-book"></i> La Guarida Freaky </a>
 
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"><span>(0)</span></a>
+                <a href="#" class="fas fa-shopping-cart"><span></span></a>
                 <a href="forms/login.php" id="login-btn" class="fas fa-user"></a>
+                <a href="php/user.php" id="login-btn" class="fa-solid fa-right-to-bracket"></a>
             </div>
 
         </div>
@@ -152,6 +153,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -170,6 +172,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -188,6 +191,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -206,6 +210,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -224,6 +229,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -242,6 +248,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -260,6 +267,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -278,6 +286,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                    </form>
                 </div>
 
             </div>
@@ -322,10 +331,12 @@ session_start();
                     <div class="content">
                         <h3>My home hero: Volumen 1</h3>
                         <div class="price">$350.65</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
 
@@ -340,6 +351,7 @@ session_start();
                         <div class="content">
                             <h3>Dr. Stone: Volumen 1</h3>
                             <div class="price">$455.87</div>
+                            <input type="number" name="cantidad" placeholder="Cantidad">
                             <button class="btn" type="submit">
                                 Añadir al carrito
                             </button>
@@ -358,10 +370,12 @@ session_start();
                     <div class="content">
                         <h3>Las vacaciones de Jesús y Buda</h3>
                         <div class="price">$310.82</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -375,10 +389,12 @@ session_start();
                     <div class="content">
                         <h3>One Piece: Volumen 1</h3>
                         <div class="price">$310.82</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -392,10 +408,12 @@ session_start();
                     <div class="content">
                         <h3>Saint Seiya: Volumen 1</h3>
                         <div class="price">$361.24</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -409,10 +427,12 @@ session_start();
                     <div class="content">
                         <h3>Ranma 1/2: Volumen 1</h3>
                         <div class="price">$276.16</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -425,11 +445,13 @@ session_start();
                     </div>
                     <div class="content">
                         <h3>Urusei Yatsura: Volumen 1</h3>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <div class="price">$503.76</div>
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -443,10 +465,12 @@ session_start();
                     <div class="content">
                         <h3>Uzumaki (3 en 1 Edicion Deluxe)</h3>
                         <div class="price">$532.81</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -460,10 +484,12 @@ session_start();
                     <div class="content">
                         <h3>The Boys: Volumen 1</h3>
                         <div class="price">$591.82</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -477,10 +503,12 @@ session_start();
                     <div class="content">
                         <h3>Sailor Moon: Volumen 1</h3>
                         <div class="price">$143.84</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -499,6 +527,7 @@ session_start();
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -512,10 +541,12 @@ session_start();
                     <div class="content">
                         <h3>Kemono Jihen: Volumen 1</h3>
                         <div class="price">$353.37</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
                 <div class="swiper-slide box">
@@ -529,10 +560,12 @@ session_start();
                     <div class="content">
                         <h3>Chainsaw Man: Volumen 1</h3>
                         <div class="price">$413.76</div>
+                        <input type="number" name="cantidad" placeholder="Cantidad">
                         <button class="btn" type="submit">
                             Añadir al carrito
                         </button>
                     </div>
+                </form>
                 </div>
 
             </div>

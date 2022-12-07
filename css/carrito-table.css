@@ -7,17 +7,17 @@ body{
 
 .tableContainer{
     padding: 0 10%;
-    margin: 40px auto 0;
+    margin: 28px auto 0;
 }
 
 .heading{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .table{
     width: 100%;
     border-collapse: collapse;
-    background: rgb(36, 36, 36);
+    *background: rgb(36, 36, 36);
     color: white;
 }
 
@@ -29,7 +29,7 @@ body{
 .table tr th {
     font-size: 24px;
     font-weight: medium;
-    padding: 16px;
+    padding: 6px;
     letter-spacing: 0.35px;
     vertical-align: top;
     border: var(--border);
@@ -66,5 +66,14 @@ body{
     .table, .table tr, .table td{
         display: block;
         width: 100%;
+    }
+
+    .table tr{
+        *margin-bottom: 16px;
+    }
+
+    .table tbody tr td{
+        text-align: right;
+        padding-left: 50%;
     }
 }

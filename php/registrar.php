@@ -38,9 +38,6 @@ if (mysqli_num_rows($verificarCel) > 0) {
 }
 
 if ($conn->query($sql) === TRUE) {
-    $_SESSION['nombre'] = $nombre;
-    $_SESSION['email'] = $email;
-    $_SESSION['pass'] = $pass;
     echo '
     <script>
         alert("Usuario registrado con exito!.");

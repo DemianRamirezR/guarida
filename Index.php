@@ -37,8 +37,9 @@ $result = mysqli_query($conn, "SELECT count(*) FROM carrito");
             <a href="Index.php" class="logo"> <i class="fas fa-book"></i> La Guarida Freaky </a>
 
             <div class="icons">
-                <a href="carrito.php" class="fas fa-shopping-cart"><span>()</span></a>
-                <a href="forms/login.php" id="login-btn" class="fas fa-user"></a>
+                <a href="carrito.php" class="fas fa-shopping-cart"></a>
+                <a href="php/user.php" id="login-btn" class="fas fa-user"></a>
+                <a href="forms/login.php" id="login-btn" class="fa-solid fa-right-to-bracket"></a>
             </div>
 
         </div>

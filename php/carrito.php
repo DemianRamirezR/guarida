@@ -3,6 +3,17 @@ session_start();
 
 include 'connect.php';
 
+if (!isset($_SESSION['email'])) {
+    echo '
+    <script>
+        alert("Por favor inicia sesion primero!");
+        window.location = "../forms/login.php";
+    </script>
+    ';
+    session_destroy();
+    die();
+}
+
 $imagen = $_POST["imagen"];
 $titulo = $_POST["titulo"];
 $precio = $_POST["precio"];

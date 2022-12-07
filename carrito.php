@@ -30,8 +30,9 @@ $result = mysqli_query($conn, "SELECT * FROM carrito");
             <a href="Index.php" class="logo"> <i class="fas fa-book"></i> La Guarida Freaky </a>
     
             <div class="icons">
-                <a href="carrito.php" class="fas fa-shopping-cart"><span>()</span></a>
+                <a href="carrito.php" class="fas fa-shopping-cart"></a>
                 <a href="forms/login.php" id="login-btn" class="fas fa-user"></a>
+                <a href="php/user.php" id="login-btn" class="fa-solid fa-right-to-bracket"></a>
             </div>
     
         </div>
@@ -73,7 +74,13 @@ $result = mysqli_query($conn, "SELECT * FROM carrito");
                 echo "</tr>";
             }
             ?>
-
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href="php/vaciarCarrito.php" class="btn">Vaciar mi Carrito.</a></td>
+            <td><a href="">Realizar Compra</a></td>
+            
         </table>
     </div>
 </body>
